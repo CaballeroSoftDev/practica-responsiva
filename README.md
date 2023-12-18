@@ -1,4 +1,4 @@
-# PracticaResponsiva
+# Practica Responsiva
 
 Practica responsiva creada con Bootstrap.
 
