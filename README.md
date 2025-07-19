@@ -17,3 +17,21 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Ejecución con Docker
+
+Puedes ejecutar esta aplicación en un contenedor Docker siguiendo estos pasos:
+
+1. **Construir la imagen Docker:**
+
+   ```bash
+   docker build -t practica-responsiva .
+   ```
+
+2. **Ejecutar el contenedor:**
+   ```bash
+   docker run -p 4200:80 practica-responsiva
+   ```
+
+3. **Acceder a la aplicación:**
+   Abre tu navegador y ve a http://localhost:4200
